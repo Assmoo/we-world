@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.qa/
+*.local
+.DS_Store
+*.tsbuildinfo
+.tools/

@@ -1,0 +1,52 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141A3A"/>
+      <stop offset=".55" stop-color="#252B52"/>
+      <stop offset="1" stop-color="#4A3D55"/>
+    </linearGradient>
+    <radialGradient id="milky" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(589 318) rotate(18) scale(604 142)">
+      <stop stop-color="#E2D6ED" stop-opacity=".31"/>
+      <stop offset=".48" stop-color="#AE9AC7" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#88729F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <ellipse cx="610" cy="344" rx="730" ry="175" transform="rotate(14 610 344)" fill="url(#milky)"/>
+  <g fill="#F8F1DC">
+    <circle cx="154" cy="127" r="2.6"/>
+    <circle cx="235" cy="201" r="1.5"/>
+    <circle cx="329" cy="96" r="2"/>
+    <circle cx="415" cy="257" r="1.2"/>
+    <circle cx="504" cy="148" r="2.2"/>
+    <circle cx="604" cy="225" r="1.4"/>
+    <circle cx="715" cy="116" r="2.4"/>
+    <circle cx="803" cy="192" r="1.5"/>
+    <circle cx="901" cy="92" r="2"/>
+    <circle cx="1038" cy="175" r="2.5"/>
+    <circle cx="1094" cy="273" r="1.2"/>
+    <circle cx="981" cy="304" r="1.6"/>
+    <circle cx="744" cy="300" r="1.2"/>
+    <circle cx="268" cy="326" r="1.7"/>
+    <circle cx="549" cy="79" r="1.2"/>
+  </g>
+  <g fill="#FFF8DD" filter="url(#glow)" opacity=".72">
+    <circle cx="230" cy="208" r="4"/>
+    <circle cx="719" cy="239" r="4"/>
+    <circle cx="1007" cy="179" r="4"/>
+  </g>
+  <path d="M0 650L155 551L287 613L432 505L581 634L729 529L871 639L1021 541L1153 615L1200 578V800H0V650Z" fill="#25243B"/>
+  <path d="M0 718L186 627L318 689L491 594L659 708L837 603L1008 704L1167 635L1200 648V800H0V718Z" fill="#131727"/>
+  <g fill="#0E1320">
+    <circle cx="528" cy="705" r="17"/>
+    <path d="M512 720C516 750 511 776 505 800H543C538 764 539 739 547 719L512 720Z"/>
+    <circle cx="592" cy="697" r="16"/>
+    <path d="M577 711C582 748 576 777 570 800H606C600 758 603 734 610 710L577 711Z"/>
+    <path d="M511 732C529 722 545 725 561 736" stroke="#0E1320" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M565 690C582 675 603 678 620 690" stroke="#0E1320" stroke-width="6" stroke-linecap="round"/>
+  <rect width="1200" height="800" fill="#0C1230" fill-opacity=".04"/>
+</svg>

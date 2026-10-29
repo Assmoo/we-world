@@ -1,0 +1,78 @@
+import type { AlbumPhoto } from '../types'
+
+const imageUrl = (name: string): string => `${import.meta.env.BASE_URL}images/${name}`
+
+export const albumPhotos: AlbumPhoto[] = [
+  {
+    id: 'sunset',
+    src: imageUrl('orange-sunset.svg'),
+    title: '橘子汽水一样的傍晚',
+    date: '2026.08.11',
+    location: '故事开始的地方',
+    note: '那天的风很轻，我们决定一起去看很远的地方。',
+    tag: '日落',
+  },
+  {
+    id: 'ocean',
+    src: imageUrl('blue-ocean.svg'),
+    title: '海风把时间吹慢了',
+    date: '2026.08.23',
+    location: '海边',
+    note: '什么也没做，只是并肩听了一会儿海。',
+    tag: '旅行',
+  },
+  {
+    id: 'cafe',
+    src: imageUrl('cafe-window.svg'),
+    title: '窗边有两个人的下午',
+    date: '2026.09.05',
+    location: '街角咖啡馆',
+    note: '一杯热拿铁，一场没聊完的天。',
+    tag: '日常',
+  },
+  {
+    id: 'stars',
+    src: imageUrl('night-stars.svg'),
+    title: '把星星装进口袋',
+    date: '2026.09.18',
+    location: '山顶',
+    note: '抬头是银河，低头是你。',
+    tag: '夜色',
+  },
+  {
+    id: 'flowers',
+    src: imageUrl('wild-flowers.svg'),
+    title: '偶遇一整片春天',
+    date: '2026.09.27',
+    location: '郊外小径',
+    note: '你停在花丛边的时候，我偷偷记住了这一幕。',
+    tag: '散步',
+  },
+  {
+    id: 'rain',
+    src: imageUrl('rainy-window.svg'),
+    title: '雨天也有好天气',
+    date: '2026.10.06',
+    location: '家里',
+    note: '雨声、热茶，还有不用赶时间的我们。',
+    tag: '日常',
+  },
+  {
+    id: 'city',
+    src: imageUrl('city-lights.svg'),
+    title: '城市替我们亮着灯',
+    date: '2026.10.17',
+    location: '晚归的路上',
+    note: '人群很吵，但我只听见你的笑声。',
+    tag: '夜色',
+  },
+  {
+    id: 'home',
+    src: imageUrl('home-lamp.svg'),
+    title: '小小房间，也有宇宙',
+    date: '2026.10.29',
+    location: '我们的角落',
+    note: '喜欢的日子不需要多特别，在一起就好。',
+    tag: '我们',
+  },
+]
